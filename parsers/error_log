@@ -1,0 +1,80 @@
+[17-Feb-2017 07:45:55 UTC] PHP Warning:  move_uploaded_file(../user/Sam/676746904384.jpg): failed to open stream: No such file or directory in /home/formfitadmin/public_html/parsers/photo_system.php on line 39
+[17-Feb-2017 07:45:55 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpPQUYdN' to '../user/Sam/676746904384.jpg' in /home/formfitadmin/public_html/parsers/photo_system.php on line 39
+[17-Feb-2017 07:46:58 UTC] PHP Warning:  move_uploaded_file(../user/Sam/596364616835.jpg): failed to open stream: No such file or directory in /home/formfitadmin/public_html/parsers/photo_system.php on line 39
+[17-Feb-2017 07:46:58 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpxufI5W' to '../user/Sam/596364616835.jpg' in /home/formfitadmin/public_html/parsers/photo_system.php on line 39
+[17-Feb-2017 07:49:05 UTC] PHP Warning:  move_uploaded_file(../user/Sam/881395510211.jpg): failed to open stream: No such file or directory in /home/formfitadmin/public_html/parsers/photo_system.php on line 39
+[17-Feb-2017 07:49:05 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpxRHhfr' to '../user/Sam/881395510211.jpg' in /home/formfitadmin/public_html/parsers/photo_system.php on line 39
+[17-Feb-2017 07:49:38 UTC] PHP Warning:  include_once(../includes/image_resize.php): failed to open stream: No such file or directory in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:49:38 UTC] PHP Warning:  include_once(): Failed opening '../includes/image_resize.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:49:38 UTC] PHP Fatal error:  Call to undefined function img_resize() in /home/formfitadmin/public_html/parsers/photo_system.php on line 49
+[17-Feb-2017 07:49:45 UTC] PHP Warning:  include_once(../includes/image_resize.php): failed to open stream: No such file or directory in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:49:45 UTC] PHP Warning:  include_once(): Failed opening '../includes/image_resize.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:49:45 UTC] PHP Fatal error:  Call to undefined function img_resize() in /home/formfitadmin/public_html/parsers/photo_system.php on line 49
+[17-Feb-2017 07:51:24 UTC] PHP Warning:  include_once(../includes/image_resize.php): failed to open stream: No such file or directory in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:51:24 UTC] PHP Warning:  include_once(): Failed opening '../includes/image_resize.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:51:24 UTC] PHP Fatal error:  Call to undefined function img_resize() in /home/formfitadmin/public_html/parsers/photo_system.php on line 49
+[17-Feb-2017 07:52:42 UTC] PHP Warning:  include_once(../includes/image_resize.php): failed to open stream: No such file or directory in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:52:42 UTC] PHP Warning:  include_once(): Failed opening '../includes/image_resize.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:52:42 UTC] PHP Fatal error:  Call to undefined function img_resize() in /home/formfitadmin/public_html/parsers/photo_system.php on line 49
+[17-Feb-2017 07:52:58 UTC] PHP Warning:  include_once(../includes/image_resize.php): failed to open stream: No such file or directory in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:52:58 UTC] PHP Warning:  include_once(): Failed opening '../includes/image_resize.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:52:58 UTC] PHP Fatal error:  Call to undefined function img_resize() in /home/formfitadmin/public_html/parsers/photo_system.php on line 49
+[17-Feb-2017 07:53:21 UTC] PHP Warning:  include_once(../includes/image_resize.php): failed to open stream: No such file or directory in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:53:21 UTC] PHP Warning:  include_once(): Failed opening '../includes/image_resize.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:53:21 UTC] PHP Fatal error:  Call to undefined function img_resize() in /home/formfitadmin/public_html/parsers/photo_system.php on line 49
+[17-Feb-2017 07:55:29 UTC] PHP Warning:  include_once(../includes/image_resize.php): failed to open stream: No such file or directory in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:55:29 UTC] PHP Warning:  include_once(): Failed opening '../includes/image_resize.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:55:29 UTC] PHP Fatal error:  Call to undefined function img_resize() in /home/formfitadmin/public_html/parsers/photo_system.php on line 49
+[17-Feb-2017 07:55:35 UTC] PHP Warning:  include_once(../includes/image_resize.php): failed to open stream: No such file or directory in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:55:35 UTC] PHP Warning:  include_once(): Failed opening '../includes/image_resize.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:55:35 UTC] PHP Fatal error:  Call to undefined function img_resize() in /home/formfitadmin/public_html/parsers/photo_system.php on line 49
+[17-Feb-2017 07:58:26 UTC] PHP Warning:  include_once(../includes/image_resize.php): failed to open stream: No such file or directory in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:58:26 UTC] PHP Warning:  include_once(): Failed opening '../includes/image_resize.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/formfitadmin/public_html/parsers/photo_system.php on line 44
+[17-Feb-2017 07:58:26 UTC] PHP Fatal error:  Call to undefined function img_resize() in /home/formfitadmin/public_html/parsers/photo_system.php on line 49
+[17-Feb-2017 22:12:39 UTC] PHP Warning:  move_uploaded_file(../user/Sam/FriFeb1722123920178996.jpg): failed to open stream: No such file or directory in /home/formfitadmin/public_html/parsers/photo_system.php on line 110
+[17-Feb-2017 22:12:39 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php2rnEGK' to '../user/Sam/FriFeb1722123920178996.jpg' in /home/formfitadmin/public_html/parsers/photo_system.php on line 110
+[17-Feb-2017 22:13:23 UTC] PHP Warning:  include_once(../includes/image_resize.php): failed to open stream: No such file or directory in /home/formfitadmin/public_html/parsers/photo_system.php on line 115
+[17-Feb-2017 22:13:23 UTC] PHP Warning:  include_once(): Failed opening '../includes/image_resize.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/formfitadmin/public_html/parsers/photo_system.php on line 115
+[17-Feb-2017 22:13:23 UTC] PHP Fatal error:  Call to undefined function img_resize() in /home/formfitadmin/public_html/parsers/photo_system.php on line 121
+[22-Feb-2017 06:39:06 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/formfitadmin/public_html/parsers/photo_system.php on line 95
+[22-Feb-2017 06:39:20 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/formfitadmin/public_html/parsers/photo_system.php on line 95
+[22-Feb-2017 06:42:43 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/formfitadmin/public_html/parsers/photo_system.php on line 95
+[22-Feb-2017 06:44:52 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/formfitadmin/public_html/parsers/photo_system.php on line 95
+[24-Feb-2017 21:49:06 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Invalid SOS parameters for sequential JPEG
+ in /home/formfitadmin/public_html/includes/img_resize.php on line 17
+[24-Feb-2017 21:49:06 UTC] PHP Warning:  imagecreatefromjpeg(): '../users/Sam/586680414434.jpg' is not a valid JPEG file in /home/formfitadmin/public_html/includes/img_resize.php on line 17
+[24-Feb-2017 21:49:06 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/formfitadmin/public_html/includes/img_resize.php on line 21
+[24-Feb-2017 21:49:56 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Invalid SOS parameters for sequential JPEG
+ in /home/formfitadmin/public_html/includes/img_resize.php on line 17
+[24-Feb-2017 21:49:56 UTC] PHP Warning:  imagecreatefromjpeg(): '../users/Sam/385742428945.jpg' is not a valid JPEG file in /home/formfitadmin/public_html/includes/img_resize.php on line 17
+[24-Feb-2017 21:49:56 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/formfitadmin/public_html/includes/img_resize.php on line 21
+[24-Feb-2017 22:19:41 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Invalid SOS parameters for sequential JPEG
+ in /home/formfitadmin/public_html/includes/img_resize.php on line 17
+[24-Feb-2017 22:19:41 UTC] PHP Warning:  imagecreatefromjpeg(): '../users/Sam/469318777322.jpg' is not a valid JPEG file in /home/formfitadmin/public_html/includes/img_resize.php on line 17
+[24-Feb-2017 22:19:41 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/formfitadmin/public_html/includes/img_resize.php on line 21
+[02-Mar-2017 21:57:08 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Invalid SOS parameters for sequential JPEG
+ in /home/formfitadmin/public_html/includes/img_resize.php on line 17
+[02-Mar-2017 21:57:08 UTC] PHP Warning:  imagecreatefromjpeg(): '../users/Sam/193464990006.jpg' is not a valid JPEG file in /home/formfitadmin/public_html/includes/img_resize.php on line 17
+[02-Mar-2017 21:57:08 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/formfitadmin/public_html/includes/img_resize.php on line 21
+[07-Mar-2017 22:12:27 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Invalid SOS parameters for sequential JPEG
+ in /home/formfitadmin/public_html/includes/img_resize.php on line 17
+[07-Mar-2017 22:12:27 UTC] PHP Warning:  imagecreatefromjpeg(): '../users/Sam/127592316642.jpg' is not a valid JPEG file in /home/formfitadmin/public_html/includes/img_resize.php on line 17
+[07-Mar-2017 22:12:27 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/formfitadmin/public_html/includes/img_resize.php on line 21
+[08-Mar-2017 07:06:56 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 27
+[08-Mar-2017 07:08:28 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 27
+[08-Mar-2017 07:09:19 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 27
+[08-Mar-2017 07:10:02 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 27
+[08-Mar-2017 07:10:05 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 27
+[08-Mar-2017 07:10:08 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 27
+[08-Mar-2017 07:10:12 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 27
+[08-Mar-2017 07:13:46 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 25
+[08-Mar-2017 07:14:20 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 25
+[08-Mar-2017 07:14:32 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 25
+[08-Mar-2017 07:14:39 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 25
+[08-Mar-2017 07:17:13 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 25
+[08-Mar-2017 07:22:00 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 25
+[08-Mar-2017 07:24:50 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 25
+[08-Mar-2017 07:26:44 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 25
+[08-Mar-2017 07:31:34 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 25
+[08-Mar-2017 07:37:36 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 25
+[08-Mar-2017 07:41:32 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/formfitadmin/public_html/parsers/video_system.php on line 25

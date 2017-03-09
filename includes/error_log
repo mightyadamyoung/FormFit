@@ -1,0 +1,1 @@
+[09-Feb-2017 23:31:06 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhos' (0) in /home/formfitadmin/public_html/includes/db_connect.php on line 2
