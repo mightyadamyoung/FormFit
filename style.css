@@ -1,0 +1,114 @@
+body,h1,h2,h3,h4,h5 {
+font-family: "Poppins", sans-serif
+}
+body {
+font-size:16px;
+}
+.w3-half img{
+margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer
+}
+.w3-half img:hover{
+opacity:1
+}
+
+#signupform{
+	margin-top:24px;	
+	border:#CCC 1px solid;
+	background: #F5F5F5;
+	padding: 12px;
+}
+#signupform > div {
+	margin-top: 12px;	
+}
+#signupform > input,select {
+	width: 200px;
+	padding: 3px;
+	background: #F3F9DD;
+}
+#signupbtn {
+	font-size:18px;
+	padding: 12px;
+}
+#terms {
+	border:#CCC 1px solid;
+	background: #F5F5F5;
+	padding: 12px;
+}
+#loginform{
+	margin-top:24px;	
+	border:#CCC 1px solid;
+	background: #F5F5F5;
+	padding: 12px;
+}
+#loginform > div {
+	margin-top: 12px;	
+}
+#loginform > input {
+	width: 200px;
+	padding: 3px;
+	background: #F3F9DD;
+}
+#loginbtn {
+	font-size:15px;
+	padding: 10px;
+}
+#forgotpassform{
+	margin-top:24px;	
+	border:#CCC 1px solid;
+	background: #F5F5F5;
+	padding: 12px;	
+}
+#forgotpassform > div {
+	margin-top: 12px;	
+}
+#forgotpassform > input {
+	width: 250px;
+	padding: 3px;
+	background: #F3F9DD;
+}
+#forgotpassbtn {
+	font-size:15px;
+	padding: 10px;
+}
+
+img.friendpics{
+border:#000 1px solid; width:40px; height:40px; margin:2px;
+}
+form#photo_form{
+margin-top:24px;	
+	border:#CCC 1px solid;
+	background: #F5F5F5;
+	padding: 12px;
+}
+div#galleries{
+}
+div#galleries > div{
+float:left; margin:20px; text-align:center; cursor:pointer;
+}
+div#galleries > div > div {
+height:100px; overflow:hidden;
+}
+div#galleries > div > div > img{
+width:150px; cursor:pointer;
+}
+div#photos{
+display:none; border:#666 1px solid; padding:20px;
+}
+div#photos > div{
+float:left; width:125px; height:80px; overflow:hidden; margin:20px;
+}
+div#photos > div > img{
+width:125px; cursor:pointer;
+}
+div#picbox{
+display:none; padding-top:36px;
+}
+div#picbox > img{
+max-width:800px; display:block; margin:0px auto;
+}
+div#picbox > button{ 
+font-size:15px;
+	padding: 10px;
+}
+	
+	
