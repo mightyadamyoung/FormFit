@@ -1,3 +1,16 @@
+/****************************************************************************************/
+/*
+/* FILE NAME: logout.php
+/*
+/* DESCRIPTION: Code for handling user logout
+/*
+/* REFERENCE:
+/*
+/*   DATE      BY       DESCRIPTION
+/* ========   ======   =============
+/* 4/1/2017 Sam Bowden  Created file before header initializations
+/*
+/****************************************************************************************/
 <?php
 session_start();
 // Set Session data to an empty array
