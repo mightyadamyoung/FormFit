@@ -1,3 +1,16 @@
+/****************************************************************************************/
+/*
+/* FILE NAME: friend_system.php
+/*
+/* DESCRIPTION: Code for dealing with friend system of the website.
+/*
+/* REFERENCE:
+/*
+/*   DATE      BY       DESCRIPTION
+/* ========   ======   =============
+/* 4/1/2017 Sam Bowden  Created file before header initializations
+/*
+/****************************************************************************************/
 <?php
 include_once("../includes/check_login_status.php");
 if($user_ok != true || $log_username == "") {
