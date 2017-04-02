@@ -1,3 +1,16 @@
+/****************************************************************************************/
+/*
+/* FILE NAME: db_connect.php
+/*
+/* DESCRIPTION: Code for handling connection to the server.
+/*
+/* REFERENCE:
+/*
+/*   DATE      BY       DESCRIPTION
+/* ========   ======   =============
+/* 4/1/2017 Sam Bowden  Created file before header initializations
+/*
+/****************************************************************************************/
 <?php
 $db_connect = mysqli_connect("localhost", "yourdatabase", "yourpasss", "yourdbname");
 //check if connection error
