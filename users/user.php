@@ -1,3 +1,16 @@
+/****************************************************************************************/
+/*
+/* FILE NAME: user.php
+/*
+/* DESCRIPTION: 
+/*
+/* REFERENCE:
+/*
+/*   DATE      BY       DESCRIPTION
+/* ========   ======   =============
+/* 4/1/2017 Sam Bowden  Created file before header initializations
+/*
+/****************************************************************************************/
 <?php
 session_start();
 // If user is logged in, header them away
