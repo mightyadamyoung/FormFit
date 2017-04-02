@@ -1,3 +1,16 @@
+/****************************************************************************************/
+/*
+/* FILE NAME: notifications.php
+/*
+/* DESCRIPTION: 
+/*
+/* REFERENCE:
+/*
+/*   DATE      BY       DESCRIPTION
+/* ========   ======   =============
+/* 4/1/2017 Sam Bowden  Created file before header initializations
+/*
+/****************************************************************************************/
 <?php
 include_once("../includes/check_login_status.php");
 // If the page requestor is not logged in, usher them away
