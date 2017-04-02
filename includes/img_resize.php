@@ -1,3 +1,16 @@
+/****************************************************************************************/
+/*
+/* FILE NAME: img_resize.php
+/*
+/* DESCRIPTION: Code for resizing images submitted by users.
+/*
+/* REFERENCE:
+/*
+/*   DATE      BY       DESCRIPTION
+/* ========   ======   =============
+/* 4/1/2017 Sam Bowden  Created file before header initializations
+/*
+/****************************************************************************************/
 <?php
 function img_resize($target, $newcopy, $w, $h, $ext) {
     list($w_orig, $h_orig) = getimagesize($target);
