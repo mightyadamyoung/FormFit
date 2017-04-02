@@ -1,3 +1,16 @@
+/****************************************************************************************/
+/*
+/* FILE NAME: reset.php
+/*
+/* DESCRIPTION: Code for handling user password reset.
+/*
+/* REFERENCE:
+/*
+/*   DATE      BY       DESCRIPTION
+/* ========   ======   =============
+/* 4/1/2017 Sam Bowden  Created file before header initializations
+/*
+/****************************************************************************************/
 <?php include_once("header.php"); ?>
 <div id="pageMiddle">
   <h3>Reset Password</h3>
