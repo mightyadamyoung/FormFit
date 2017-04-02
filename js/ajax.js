@@ -1,3 +1,16 @@
+/****************************************************************************************/
+/*
+/* FILE NAME: ajax.js
+/*
+/* DESCRIPTION: 
+/*
+/* REFERENCE:
+/*
+/*   DATE      BY       DESCRIPTION
+/* ========   ======   =============
+/* 4/1/2017 Sam Bowden  Created file before header initializations
+/*
+/****************************************************************************************/
 function ajaxObj( meth, url ) {
 	var x = new XMLHttpRequest();
 	x.open( meth, url, true );
