@@ -1,3 +1,16 @@
+/****************************************************************************************/
+/*
+/* FILE NAME: autoscroll.js
+/*
+/* DESCRIPTION: 
+/*
+/* REFERENCE:
+/*
+/*   DATE      BY       DESCRIPTION
+/* ========   ======   =============
+/* 4/1/2017 Sam Bowden  Created file before header initializations
+/*
+/****************************************************************************************/
 var scrollY = 0;
 var distance = 40;
 var speed = 24;
