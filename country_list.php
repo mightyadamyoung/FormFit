@@ -1,3 +1,16 @@
+/****************************************************************************************/
+/*
+/* FILE NAME: country_list.php
+/*
+/* DESCRIPTION: Code for user country selection
+/*
+/* REFERENCE:
+/*
+/*   DATE      BY       DESCRIPTION
+/* ========   ======   =============
+/* 4/1/2017 Sam Bowden  Created file before header initializations
+/*
+/****************************************************************************************/
 <option value="">Country...</option>
 <option value="Afganistan">Afghanistan</option>
 <option value="Albania">Albania</option>
