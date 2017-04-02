@@ -1,3 +1,16 @@
+/****************************************************************************************/
+/*
+/* FILE NAME: check_login_status.php
+/*
+/* DESCRIPTION: Code for detecting login status of a user.
+/*
+/* REFERENCE:
+/*
+/*   DATE      BY       DESCRIPTION
+/* ========   ======   =============
+/* 4/1/2017 Sam Bowden  Created file before header initializations
+/*
+/****************************************************************************************/
 <?php
 session_start();
 include_once("db_connect.php");
