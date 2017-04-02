@@ -1,3 +1,16 @@
+/****************************************************************************************/
+/*
+/* FILE NAME: login.php
+/*
+/* DESCRIPTION: Code for handling user login.
+/*
+/* REFERENCE:
+/*
+/*   DATE      BY       DESCRIPTION
+/* ========   ======   =============
+/* 4/1/2017 Sam Bowden  Created file before header initializations
+/*
+/****************************************************************************************/
 <?php
 // AJAX CALLS THIS LOGIN CODE TO EXECUTE
 if(isset($_POST["e"])){
