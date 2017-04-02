@@ -1,3 +1,17 @@
+/****************************************************************************************/
+/*
+/* FILE NAME: message.php
+/*
+/* DESCRIPTION: Code for handling messages for successful account activation and 
+/* unsuccessful account activation
+/*
+/* REFERENCE:
+/*
+/*   DATE      BY       DESCRIPTION
+/* ========   ======   =============
+/* 4/1/2017 Sam Bowden  Created file before header initializations
+/*
+/****************************************************************************************/
 <?php
 $message = "";
 $msg = preg_replace('#[^a-z 0-9.:_()]#i', '', $_GET['msg']);
