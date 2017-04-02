@@ -1,3 +1,16 @@
+/****************************************************************************************/
+/*
+/* FILE NAME: expand_retract.js
+/*
+/* DESCRIPTION: 
+/*
+/* REFERENCE:
+/*
+/*   DATE      BY       DESCRIPTION
+/* ========   ======   =============
+/* 4/1/2017 Sam Bowden  Created file before header initializations
+/*
+/****************************************************************************************/
 function slideIn(el){
 	var elem = document.getElementById(el);
 	elem.style.transition = "left 0.5s ease-in 0s";
