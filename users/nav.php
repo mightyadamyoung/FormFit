@@ -1,3 +1,16 @@
+/****************************************************************************************/
+/*
+/* FILE NAME: nav.php
+/*
+/* DESCRIPTION: 
+/*
+/* REFERENCE:
+/*
+/*   DATE      BY       DESCRIPTION
+/* ========   ======   =============
+/* 4/1/2017 Sam Bowden  Created file before header initializations
+/*
+/****************************************************************************************/
 <?php 
 $sql = "SELECT * FROM friends WHERE user2 = '$log_username' AND accepted = '0'";
 $user_query = mysqli_query($db_connect, $sql);
