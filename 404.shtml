@@ -1,14 +1,14 @@
 /****************************************************************************************/
 /*
-/* FILE NAME: 404.shtml
+/* FILE NAME: activation.php
 /*
-/* DESCRIPTION: Code for 404 error.
+/* DESCRIPTION: Code for 404 error page.
 /*
 /* REFERENCE:
 /*
-/*   DATE     BY    CHANGE REF   DESCRIPTION
-/* ======== ====== ============ =============
-/* 4/1/2017 Sam Bowden Created file
+/*   DATE      BY       DESCRIPTION
+/* ========   ======   =============
+/* 4/1/2017 Sam Bowden  Created file before header initializations
 /*
 /****************************************************************************************/
 <!DOCTYPE html>
