@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: activation.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling user account activation.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
