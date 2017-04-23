@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: analyticstracking.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling analytics tracking.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
