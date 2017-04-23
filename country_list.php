@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: country_list.php
 /*
-/* DESCRIPTION: Code for user country selection
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling a user's country selection
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
