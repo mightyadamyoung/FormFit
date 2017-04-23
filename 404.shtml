@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: activation.php
 /*
-/* DESCRIPTION: Code for 404 error page.
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling 404 error page.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
