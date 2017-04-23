@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: nav.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling a user's navigation of the website.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
