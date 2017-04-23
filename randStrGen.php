@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: randStrGen.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling string generation.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
