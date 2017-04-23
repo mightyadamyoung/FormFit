@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: index.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling initialization of the website.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
