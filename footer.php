@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: footer.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling the content and style of the footer of the website.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
