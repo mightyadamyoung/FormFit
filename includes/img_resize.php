@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: img_resize.php
 /*
-/* DESCRIPTION: Code for resizing images submitted by users.
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for resizin user submitted images.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
