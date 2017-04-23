@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: ajax.js
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling state of the website.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
