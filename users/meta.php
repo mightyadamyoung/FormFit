@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: meta.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling meta data of the website.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
