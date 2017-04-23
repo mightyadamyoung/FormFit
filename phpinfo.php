@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: phpinfo.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling php info.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
