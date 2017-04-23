@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: exercise.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling a user's exercise uploads.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
