@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: photos.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling a user's submitted photos.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
