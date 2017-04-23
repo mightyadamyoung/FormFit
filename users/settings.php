@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: settings.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling custom user set settings.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
