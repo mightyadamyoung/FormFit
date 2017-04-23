@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: block_system.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling system for user's blocking other users.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
