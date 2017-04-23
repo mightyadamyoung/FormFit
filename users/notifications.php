@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: notifications.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling a user's notifications.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
