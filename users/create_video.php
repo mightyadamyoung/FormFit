@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: create_video.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling style of video submission page.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
