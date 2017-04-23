@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: main.js
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for main Java function for handling display of website.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
