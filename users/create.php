@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: create.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling user created content.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
