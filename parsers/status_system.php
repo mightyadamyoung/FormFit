@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: status_system.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for storing user inputed "status".
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
