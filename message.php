@@ -5,8 +5,6 @@
 /* DESCRIPTION: Code for handling messages for successful account activation and 
 /* unsuccessful account activation
 /*
-/* REFERENCE:
-/*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
 /* 4/1/2017 Sam Bowden  Created file before header initializations
