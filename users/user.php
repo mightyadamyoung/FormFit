@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: user.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling a user's interactions with the website.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
