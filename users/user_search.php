@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: user_search.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling one user searching for another user on the website.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
