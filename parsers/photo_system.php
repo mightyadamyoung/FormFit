@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: photo_system.php
 /*
-/* DESCRIPTION: System for handling user photo sharing.
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling user photo sharing storage.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
