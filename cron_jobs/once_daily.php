@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: once_daily.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling deletion of accounts that are not activated within 3 days.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
