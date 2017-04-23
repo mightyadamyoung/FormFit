@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: autoscroll.js
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling autoscroll function of the website.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
