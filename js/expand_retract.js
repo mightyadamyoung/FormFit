@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: expand_retract.js
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling the sizing of the website based on the window it is in.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
