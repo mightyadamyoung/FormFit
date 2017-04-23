@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: header.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling the content and style of the website header.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
