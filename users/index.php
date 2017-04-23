@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: index.php
 /*
-/* DESCRIPTION: 
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling style and format of the page relevent to user's view.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
