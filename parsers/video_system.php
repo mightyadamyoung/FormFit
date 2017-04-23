@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: video_system.php
 /*
-/* DESCRIPTION: Code for handling user video sharing.
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling storage of user video uploads.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
