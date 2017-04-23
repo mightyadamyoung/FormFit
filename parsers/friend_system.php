@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: friend_system.php
 /*
-/* DESCRIPTION: Code for dealing with friend system of the website.
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling friend system data storage of the website.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
