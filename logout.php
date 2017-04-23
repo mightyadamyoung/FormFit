@@ -2,9 +2,7 @@
 /*
 /* FILE NAME: logout.php
 /*
-/* DESCRIPTION: Code for handling user logout
-/*
-/* REFERENCE:
+/* DESCRIPTION: Code for handling user logout.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
