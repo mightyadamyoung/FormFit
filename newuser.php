@@ -4,8 +4,6 @@
 /*
 /* DESCRIPTION: Code for handling registration of a new user.
 /*
-/* REFERENCE:
-/*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
 /* 4/1/2017 Sam Bowden  Created file before header initializations
