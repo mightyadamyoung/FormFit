@@ -2,7 +2,7 @@
 /*
 /* FILE NAME: activation.php
 /*
-/* DESCRIPTION: Code for handling 404 error page.
+/* DESCRIPTION: Code for handling 404 and 404 error page.
 /*
 /*   DATE      BY       DESCRIPTION
 /* ========   ======   =============
@@ -16,11 +16,13 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" >
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style type="text/css">
-body {
+body 
+{
   background-color: #eee;
 }
 
-body, h1, p {
+body, h1, p 
+{
   font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: normal;
   margin: 0;
@@ -28,7 +30,8 @@ body, h1, p {
   text-align: center;
 }
 
-.container {
+.container 
+{
   margin-left:  auto;
   margin-right:  auto;
   margin-top: 177px;
@@ -37,16 +40,19 @@ body, h1, p {
   padding-left: 15px;
 }
 
-.row:before, .row:after {
+.row:before, .row:after 
+{
   display: table;
   content: " ";
 }
 
-.col-md-6 {
+.col-md-6 
+{
   width: 50%;
 }
 
-.col-md-push-3 {
+.col-md-push-3 
+{
   margin-left: 25%;
 }
 
