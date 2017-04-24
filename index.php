@@ -11,7 +11,7 @@
 /****************************************************************************************/
 <?php
 include("includes/check_login_status.php");
-// If user is already logged in, header that weenis away
+// If user is already logged in, them away
 if($user_ok == true){
 	header("location: users/user.php?u=".$_SESSION["username"]);
     exit();
