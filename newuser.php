@@ -145,6 +145,8 @@ function checkusername(){
         ajax.send("usernamecheck="+u);
 	}
 }
+// The function that gets called when the user completes the signup sheet. 
+//Checks for error handling such as the form not being filled out or the password fields not matching.
 function signup(){
 	var u = _("username").value;
 	var e = _("email").value;
