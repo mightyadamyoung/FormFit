@@ -176,6 +176,8 @@ if(mysqli_num_rows($query) > 0){
 <?php include('meta.php'); ?>
 <title>Formfit | <?php echo $u; ?></title>
 <script type="text/javascript">
+
+//Function used to friend other users. Works as a toggle- can be friended and unfriended by calling the same function.
 function friendToggle(type,user,elem){
 	var conf = confirm("Press OK to confirm the '"+type+"' action for user <?php echo $u; ?>.");
 	if(conf != true){
@@ -197,6 +199,8 @@ function friendToggle(type,user,elem){
 	}
 	ajax.send("type="+type+"&user="+user);
 }
+
+//Function to block users. Works as a toggle- can be unblocked by calling the same function.
 function blockToggle(type,blockee,elem){
 	var conf = confirm("Press OK to confirm the '"+type+"' action on user <?php echo $u; ?>.");
 	if(conf != true){
