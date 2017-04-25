@@ -81,6 +81,8 @@ div.user_info{float:left; font-size:14px;}
 <script src="../js/main.js"></script>
 <script src="../js/ajax.js"></script>
 <script type="text/javascript">
+
+//Sends friend request to the user. Also handles responses for if the request was accepted or denied.
 function friendReqHandler(action,reqid,user1,elem){
 	var conf = confirm("Press OK to '"+action+"' this friend request.");
 	if(conf != true){
