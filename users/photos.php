@@ -81,6 +81,8 @@ div#picbox > img{max-width:800px; display:block; margin:0px auto;}
 div#picbox > button{ display:block; float:right; font-size:36px; padding:3px 16px;}
 </style>
 <script>
+
+//Function to show the photo gallery to the given user.
 function showGallery(gallery,user){
 	_("galleries").style.display = "none";
 	_("section_title").innerHTML = user+'&#39;s '+gallery+' Gallery &nbsp; <button onclick="backToGalleries()">Go back to all galleries</button>';
@@ -100,11 +102,16 @@ function showGallery(gallery,user){
 	}
 	ajax.send("show=galpics&gallery="+gallery+"&user="+user);
 }
+
+//Brings user back to previous gallery
 function backToGalleries(){
 	_("photos").style.display = "none";
 	_("section_title").innerHTML = "<?php echo $u; ?>&#39;s Photo Galleries";
 	_("galleries").style.display = "block";
 }
+
+
+
 function photoShowcase(picdata){
 	var data = picdata.split("|");
 	_("section_title").style.display = "none";
@@ -116,12 +123,16 @@ function photoShowcase(picdata){
 		_("picbox").innerHTML += '<p id="deletelink"><a href="#" onclick="return false;" onmousedown="deletePhoto(\''+data[0]+'\')">Delete this Photo <?php echo $u; ?></a></p>';
 	}
 }
+
+//Closes a photo, returns to previous state.
 function closePhoto(){
 	_("picbox").innerHTML = '';
 	_("picbox").style.display = "none";
 	_("photos").style.display = "block";
 	_("section_title").style.display = "block";
 }
+
+//Deletes a photo from the database. 
 function deletePhoto(id){
 	var conf = confirm("Press OK to confirm the delete action on this photo.");
 	if(conf != true){
