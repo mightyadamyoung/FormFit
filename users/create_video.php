@@ -4,9 +4,9 @@
 /*
 /* DESCRIPTION: Code for handling style of video submission page.
 /*
-/*   DATE      BY       DESCRIPTION
-/* ========   ======   =============
-/* 4/1/2017 Sam Bowden  Created file before header initializations
+/*   DATE      	  BY       	 	 DESCRIPTION
+/* ========   	======   		=============
+/* 4/26/2017 Amber Johnson  	Created file before header initializations
 /*
 /****************************************************************************************/
 <?php
