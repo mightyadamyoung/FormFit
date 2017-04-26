@@ -11,7 +11,7 @@
 /****************************************************************************************/
 <?php
 include("../includes/check_login_status.php");
-// If user is already logged in, header them away
+// If user is already logged in, the user can add a video from their computer files and upload the video to the FitnessZone.
 if($user_ok != true){
 	header("location: ../index.php");
     exit();
