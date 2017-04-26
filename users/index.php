@@ -1,14 +1,3 @@
-/****************************************************************************************/
-/*
-/* FILE NAME: index.php
-/*
-/* DESCRIPTION: Code for handling style and format of the page relevent to user's view.
-/*
-/*   DATE      BY       DESCRIPTION
-/* ========   ======   =============
-/* 4/1/2017 Sam Bowden  Created file before header initializations
-/*
-/****************************************************************************************/
 <?php include("../includes/check_login_status.php"); ?>
 <?php
 session_start();
@@ -28,10 +17,11 @@ while ($row = mysqli_fetch_array($user_query, MYSQLI_ASSOC)) {
 	$creator = $row["username"];
 	$name = $row["exname"];
 	$desc = $row["descr"];
+	$cover = $row["cover"];
 	$video = $row["video"];
 	
 	$exercise .= '<div class="w3-quarter">';
-	$exercise .= '<img src="'.$log_username.'/'.$video.'" alt="" style="width:100%">';
+	$exercise .= '<img src="'.$creator.'/'.$cover.'" alt="" height ="200" width="200">';
 	$exercise .= '<h3><a href="exercise.php?id='.$id.'">'.$name.'</a></h3>';
 	$exercise .= '<p>'.$desc.'</p></div>';
 	if ($i % 4 == 0){
