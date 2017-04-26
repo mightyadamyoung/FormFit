@@ -1,3 +1,14 @@
+/****************************************************************************************/
+/*
+/* FILE NAME: create_cover.php
+/*
+/* DESCRIPTION: Code for handling the page in relation to uploading a video.
+/*
+/*   DATE      BY       	 DESCRIPTION
+/* ========   ======   		=============
+/* 4/26/2017 Amber Johnson  Edited file for styling purposes.
+/*
+/****************************************************************************************/
 <?php
 include("../includes/check_login_status.php");
 // If user is already logged in, the user can add a video to the Fitness Zone and choose the cover photo of said video.
