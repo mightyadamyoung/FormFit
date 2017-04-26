@@ -1,8 +1,3 @@
-
-/*   DATE      	  BY       	 	 DESCRIPTION
-/* ========   	======   		=============
-/* 4/26/2017 Jordan Hendl  	File for handling exercises
-
 <?php
 session_start();
 // If user is logged in, header them away
@@ -53,87 +48,80 @@ while ($row = mysqli_fetch_array($user_query, MYSQLI_ASSOC)) {
 			    }
 			    
 	$muscarr = explode(', ', $muscles);		    
-			
+	//generate the map		
 	if  (in_array("Pectorals", $muscarr)){		    
-		$map .= '<area alt="" title="" href="#" shape="poly" coords="168,198,181,273,325,271,333,211,330,204,327,197" onmouseover="this.style.backgroundColor="#00FF00;"/>';
+		$map .= '<area alt="" title="" href="#" shape="rect" coords="172,197,323,272" onmouseover="writeText(\'Pectorals\')"/>';
 	}
-	if  (in_array("Biceps", $muscarr)){		    
-		$map .= '<area alt="" title="" href="#" shape="poly" coords="128,231,121,326,159,326,160,229" />';
-	}
+	
 	if  (in_array("Biceps", $muscarr)){
-        	$map .= '<area alt="" title="" href="#" shape="poly" coords="383,243,358,242,361,327,394,322" />';
+        	$map .= '<area alt="" title="" href="#" shape="rect" coords="131,246,161,330" onmouseover="writeText(\'Biceps\')"/>
+    			 <area alt="" title="" href="#" shape="rect" coords="362,244,396,328" onmouseover="writeText(\'Biceps\')"/>';
         }
         if  (in_array("Dealts", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="poly" coords="131,225,133,175,184,172" />';
-	}
-	if  (in_array("Dealts", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="339,165,391,221" />';
+		$map .= '<area alt="" title="" href="#" shape="poly" coords="136,163,136,229,187,182" onmouseover="writeText(\'Dealts\')"/>
+    			 <area alt="" title="" href="#" shape="poly" coords="379,172,372,239,323,184" onmouseover="writeText(\'Dealts\')"/>';
 	}
 	if  (in_array("Forearms", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="116,332,138,450" />';
+		$map .= '<area alt="" title="" href="#" shape="rect" coords="114,339,145,442" onmouseover="writeText(\'Forearms\')"/>
+    			 <area alt="" title="" href="#" shape="rect" coords="411,344,390,451" onmouseover="writeText(\'Forearms\')"/>';
 	}
-	if  (in_array("Forearms", $muscarr)){
-        	$map .= '<area alt="" title="" href="#" shape="rect" coords="359,349,423,439" />';
-        }
         if  (in_array("Abs", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="211,288,277,472" />';
+		$map .= '<area alt="" title="" href="#" shape="rect" coords="209,285,283,483" onmouseover="writeText(\'Abs\')"/>';
 	}
 	if  (in_array("Obliques", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="305,294,337,414" />';
-	}
-	if  (in_array("Obliques", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="179,309,198,438" />';
+		$map .= '<area alt="" title="" href="#" shape="rect" coords="174,298,211,435" onmouseover="writeText(\'Obliques\')"/>
+    		   	 <area alt="" title="" href="#" shape="rect" coords="338,298,300,436" onmouseover="writeText(\'Obliques\')"/>';
 	}
 	if  (in_array("Quads", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="172,491,236,681" />';
-	}
-	if  (in_array("Quads", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="275,513,327,659" />';
+		$map .= '<area alt="" title="" href="#" shape="rect" coords="172,484,241,674" onmouseover="writeText(\'Quads\')"/>
+    			 <area alt="" title="" href="#" shape="rect" coords="356,487,271,678" onmouseover="writeText(\'Quads\')"/>';
 	}
 	if  (in_array("Scapulas", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="658,184,728,330" />';
+		$map .= '<area alt="" title="" href="#" shape="rect" coords="674,188,728,308" onmouseover="writeText(\'Scapulas\')"/>';
 	}
 	if  (in_array("Rear Dealts", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="585,183,642,252" />';
-	}
-	if  (in_array("Rear Dealts", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="752,184,829,263" />';
+		$map .= '<area alt="" title="" href="#" shape="rect" coords="602,174,654,260" onmouseover="writeText(\'Rear Dealts\')"/>
+    		         <area alt="" title="" href="#" shape="rect" coords="821,173,761,257" onmouseover="writeText(\'Rear Dealts\')"/>';
 	}
 	if  (in_array("Lats", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="738,274,775,395" />';
+		$map .= '<area alt="" title="" href="#" shape="rect" coords="623,262,669,394" onmouseover="writeText(\'Lats\')"/>
+    			 <area alt="" title="" href="#" shape="rect" coords="797,262,752,403" onmouseover="writeText(\'Lats\')"/>';
 	}
-	if  (in_array("Lats", $muscarr)){
-        	$map .= '<area alt="" title="" href="#" shape="rect" coords="629,287,674,388" />';
-        }
-        if  (in_array("Glutes", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="576,257,596,343" />';
+        if  (in_array("Triceps", $muscarr)){
+		$map .= '<area alt="" title="" href="#" shape="rect" coords="576,234,609,335" onmouseover="writeText(\'Triceps\')"/>
+    			 <area alt="" title="" href="#" shape="rect" coords="842,240,808,340" onmouseover="writeText(\'Triceps\')"/>';
+	}
+	if  (in_array("Glutes", $muscarr)){
+		$map .= '<area alt="" title="" href="#" shape="rect" coords="631,428,776,525" onmouseover="writeText(\'Glutes\')"/>';
 	}
 	if  (in_array("Spinae", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="800,273,843,330" />';
-	}
-	if  (in_array("Triceps", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="631,427,781,533" onmouseover="this.style.backgroundColor="#00FF00;"/>';
-	}
-	if  (in_array("Triceps", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="677,379,719,425" onmouseover="this.style.backgroundColor="#00FF00;"/>';
+		$map .= '<area alt="" title="" href="#" shape="rect" coords="675,386,725,432" onmouseover="writeText(\'Erector Spinae\')"/>';
+		
 	}
 	if  (in_array("Hamstrings", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="618,539,676,695" />';
-	}
-	if  (in_array("Hamstrings", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="721,553,768,688" />';
+		$map .= '<area alt="" title="" href="#" shape="rect" coords="618,539,676,695" onmouseover="writeText(\'HamStrings\')"/>
+			 <area alt="" title="" href="#" shape="rect" coords="713,545,779,687" onmouseover="writeText(\'Hamstrings\')"/>';
 	}
 	if  (in_array("Calves", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="644,716,685,823" />';
-	}
-	if  (in_array("Calves", $muscarr)){
-		$map .= '<area alt="" title="" href="#" shape="rect" coords="738,732,781,809" />';		   
+		$map .= '<area alt="" title="" href="#" shape="rect" coords="644,716,685,823" onmouseover="writeText(\'Calves\')"/>
+			 <area alt="" title="" href="#" shape="rect" coords="738,732,781,809" onmouseover="writeText(\'Calves\')"/>';
 	}
 }
 ?>
 <?php include('meta.php'); ?>
 <body class="w3-theme-l5">
 <title><?php echo $name; ?></title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery.maphilight.min.js"></script>
+<script type="text/javascript">$(function() {
+		$('.map').maphilight({fade: false, alwaysOn: true});
+	});
+</script>
+<script>
+function writeText(txt) {
+    _("musc").innerHTML = txt;
+}
+</script>
 </head>
 <?php include("nav.php"); ?>
 <!-- !PAGE CONTENT! -->
@@ -162,7 +150,8 @@ while ($row = mysqli_fetch_array($user_query, MYSQLI_ASSOC)) {
 			      <br />
 			      <hr>
 			      <h4>Muscles Worked</h4><br />
-			      <img src="../images/muscles.jpg" alt="" usemap="#Map" />
+			      <span id="musc"></span>
+			      <img class="map" src="../images/muscles.jpg" alt="" usemap="#Map" />
 				<map name="Map" id="Map">
 				    <?php echo $map; ?>
 				</map>

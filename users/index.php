@@ -38,7 +38,7 @@ while ($row = mysqli_fetch_array($user_query, MYSQLI_ASSOC)) {
 <?php include("status.php") ?>
 <?php include('meta.php'); ?>
 <body class="w3-theme-l5">
-<title><?php echo $u; ?> Settings</title>
+<title>Fitness Zone</title>
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <script>
 function emptyElement(x){
