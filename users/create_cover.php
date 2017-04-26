@@ -1,6 +1,6 @@
 <?php
 include("../includes/check_login_status.php");
-// If user is already logged in, header that weenis away
+// If user is already logged in, the user can add a video to the Fitness Zone and choose the cover photo of said video.
 if($user_ok != true){
 	header("location: ../index.php");
     exit();
